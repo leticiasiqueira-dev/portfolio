@@ -1,56 +1,108 @@
-# Simple Developer Portfolio Template
+# 👩🏻‍💻 Letícia Almeida
 
-![Project Preview](portfolio_preview.jpg)
+### Estudante de Ciência da Computação | CESAR School
 
-## Description
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-6D214F?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-8E3B6E?style=for-the-badge&logo=javascript&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-7B2D5A?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-5E1F47?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-B03A5B?style=for-the-badge&logo=git&logoColor=white">
+</p>
 
-This is a very simple, but elegant responsive portfolio template built using plain JavaScript, HTML, and CSS. It’s designed to be easily customizable, allowing any developer to quickly create a personal portfolio site. Below you'll find detailed information about the features and how to use this template.
+---
 
-## Table of Contents
+## ✨ Sobre o Projeto
 
-- [Features](#features)
-- [Live Preview](#live-preview)
-- [Usage](#usage)
-- [Recent Updates](#recent-updates)
-- [License](#license)
+Este repositório contém meu portfólio pessoal, desenvolvido para apresentar minha trajetória acadêmica, habilidades técnicas, projetos e certificados.
 
-## Features
+Atualmente curso Ciência da Computação na CESAR School e utilizo este espaço para registrar minha evolução na área de tecnologia por meio de projetos acadêmicos e pessoais.
 
-- Responsive Design
-- Single-page layout
-- Simple and customizable
-- PHP Mailer Integration
+---
 
-## Live Preview
+## 👩🏻‍💻 Áreas de Interesse
 
-Check out the live preview of the Simple Developer Portfolio [here](https://hhlitval.github.io/simple-portfolio-template).
+🧠 Inteligência Artificial
 
-## Usage
+🔐 Cibersegurança
 
-To use this template, follow these steps:
+💻 Desenvolvimento de Software
 
-1. **Clone the Repository**: 
-    ```bash
-    git clone https://github.com/hhlitval/simple-portfolio-template.git
-    ```
-2. **Customization**:
-   - Update `index.html` with your information.
-   - Modify `style.css` for custom styles.
-3. **Email Integration**:
-   To enable email functionality:
-   - Upload the project to a PHP-enabled server.
-   - Configure the `mail.php` file with your email credentials.
-4. **Deployment**:
-   - Host the project on a server that supports PHP for email functionality.
-   - **If hosting on GitHub Pages, note that email handling will not work, since GitHub Pages is a static hosting service**.
+📊 Ciência de Dados
 
-## Recent Updates
+---
 
-- Refactored font sizes and styles for improved readability and balance.
-- Reworked animations for smoother transitions and a modern look.
-- Removed the preloader for a faster, simplified user experience.
-- Added [PHP Mailer](https://github.com/PHPMailer/PHPMailer) integration for email handling (requires a PHP-enabled server, not supported on GitHub Pages).
+## 🚀 Tecnologias Utilizadas
 
-## License
+| Tecnologia   | Conhecimento |
+| ------------ | ------------ |
+| HTML         | ⭐⭐⭐⭐         |
+| CSS          | ⭐⭐⭐⭐         |
+| JavaScript   | ⭐⭐⭐          |
+| Python       | ⭐⭐⭐⭐         |
+| Git & GitHub | ⭐⭐⭐          |
 
-This project is licensed under the MIT License.
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+portfolio/
+│
+├── css/
+├── img/
+├── js/
+├── certificados.html
+├── projetos.html
+├── index.html
+└── README.md
+```
+
+---
+
+## 🎯 Funcionalidades
+
+✅ Página inicial responsiva
+
+✅ Apresentação profissional
+
+✅ Seção Sobre Mim
+
+✅ Habilidades técnicas
+
+✅ Página de Projetos
+
+✅ Página de Certificados
+
+✅ Integração com GitHub e LinkedIn
+
+---
+
+## 📈 Objetivos
+
+Atualmente busco:
+
+* Aprimorar conhecimentos em desenvolvimento web
+* Construir projetos práticos
+* Desenvolver experiência em programação
+* Ampliar minha base em engenharia de software
+* Participar de projetos que gerem impacto real
+
+---
+
+## 📬 Contato
+
+📧 **Email:**
+[lelesiqueira08@gmail.com](mailto:lelesiqueira08@gmail.com)
+
+💼 **LinkedIn:**
+[www.linkedin.com/in/leticiasiqueira-dev](http://www.linkedin.com/in/leticiasiqueira-dev)
+
+💻 **GitHub:**
+github.com/leticiasiqueira-dev
+
+---
+
+<p align="center">
+  👩🏻‍💻 Desenvolvido por Letícia Almeida
+</p>
