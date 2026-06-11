@@ -163,11 +163,22 @@ h5 {
 }
 
 .logo {
-  position: relative;
-  line-height: 1;
-  font-weight: 400;
-  font-size: clamp(1.125rem, 1.011rem + 0.57vw, 1.375rem);
-  color: var(--main-text-color);
+    text-decoration: none;
+    font-style: italic;
+    font-size: 34px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.logo-l {
+    color: white;
+    -webkit-text-stroke: 1.8px #000;
+}
+
+.logo-a {
+    color: #6f1d1b;
 }
 
 .nav-list {
@@ -667,5 +678,198 @@ h5 {
 
   80% {
     top: 0;
+  }
+}
+/* Página Certificados */
+
+.pagina-certificados {
+  padding-top: 90px;
+  background-color: var(--primary-bg-color);
+}
+
+.certificados-hero {
+  padding: 90px 0 50px;
+  text-align: center;
+}
+
+.certificados-hero h1 {
+  font-size: clamp(2.5rem, 2rem + 3vw, 5rem);
+  margin-bottom: 20px;
+  color: var(--primary-accent);
+}
+
+.certificados-hero p {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--supportive-text-color);
+}
+
+.certificados-section {
+  padding: 40px 0 100px;
+}
+
+.certificados-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 34px;
+}
+
+.certificado-card {
+  background-color: white;
+  border: 1px solid var(--gray-color-3);
+  box-shadow: 0 10px 30px rgba(12, 22, 24, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificado-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(12, 22, 24, 0.14);
+}
+
+.certificado-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.certificado-info {
+  padding: 26px;
+}
+
+.certificado-info span {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--secondary-accent);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.certificado-info h2 {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.certificado-info a {
+  display: inline-block;
+  color: white;
+  background-color: var(--primary-accent);
+  padding: 12px 18px;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.certificado-info a:hover {
+  background-color: var(--secondary-accent);
+}
+
+@media (max-width: 900px) {
+  .certificados-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Página Projetos - cards claros */
+
+.pagina-projetos {
+  padding-top: 90px;
+  background-color: var(--primary-bg-color);
+  min-height: 100vh;
+}
+
+.projetos-hero {
+  padding: 90px 0 50px;
+}
+
+.projetos-label {
+  display: block;
+  color: var(--secondary-accent);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.projetos-hero h1 {
+  font-size: clamp(3rem, 2rem + 5vw, 6rem);
+  line-height: 0.95;
+  color: var(--primary-accent);
+}
+
+.projetos-hero h1 em {
+  color: var(--secondary-accent);
+  font-style: italic;
+}
+
+.projetos-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #e5e7eb;
+  background-color: white;
+}
+
+.projeto-card-novo {
+  min-height: 360px;
+  padding: 44px;
+  border-right: 1px solid #e5e7eb;
+  text-decoration: none;
+  color: var(--main-text-color);
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease;
+}
+
+.projeto-card-novo:last-child {
+  border-right: none;
+}
+
+.projeto-card-novo:hover {
+  background-color: #fafafa;
+  transform: translateY(-6px);
+}
+
+.projeto-numero {
+  color: #9ca3af;
+  font-size: 14px;
+  margin-bottom: 34px;
+}
+
+.projeto-icone {
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+.projeto-card-novo h2 {
+  font-size: 28px;
+  margin-bottom: 18px;
+  color: var(--secondary-accent);
+}
+
+.projeto-card-novo p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--supportive-text-color);
+}
+
+.projeto-seta {
+  margin-top: auto;
+  font-size: 24px;
+  color: var(--secondary-accent);
+}
+
+@media (max-width: 900px) {
+  .projetos-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .projeto-card-novo {
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
   }
 }
