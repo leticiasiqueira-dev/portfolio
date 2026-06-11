@@ -12,7 +12,7 @@
 
 ---
 
-## ✨ Sobre o Projeto
+## ✨ Sobre o Portfolio
 
 Este repositório contém meu portfólio pessoal, desenvolvido para apresentar minha trajetória acadêmica, habilidades técnicas, projetos e certificados.
 
